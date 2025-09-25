@@ -25,7 +25,7 @@
 - 📷 **Screenshots:**  
   ![IDE Integration Screenshot](assets/screenshots/ide-plugin.png)  
   ![CLI Tool Report Screenshot](assets/screenshots/cli-report.png)  
-  ![Dashboard Screenshot](https://1drv.ms/f/c/6a76ef0b95b83422/EvQCrEmVDvpDqSkx8OgTbYEBuYKXeuJk82_RSjjkS3Am7w?e=crSRKr)
+  ![Dashboard Screenshot](https://1drv.ms/i/c/6a76ef0b95b83422/EUU13XFRWedMjC9JI7AXVkoBuREg42lSTgKKgaum12Bfog?e=skZWdG)
 
 
 ---
