@@ -13,8 +13,18 @@
   "ignorePatterns": [
     "node_modules/",
     "dist/",
-    "cli/node_modules/",
     "dashboard/node_modules/"
+  ],
+  "overrides": [
+    {
+      "files": ["cli/**/*.js"],
+      "rules": {
+        "no-console": "off",
+        "no-unused-vars": "off",
+        "semi": "off",
+        "quotes": "off"
+      }
+    }
   ],
   "rules": {
     "no-unused-vars": "warn",
@@ -23,3 +33,4 @@
     "quotes": ["warn", "double"]
   }
 }
+
