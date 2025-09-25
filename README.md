@@ -16,8 +16,6 @@
 
 ## 🎥 Demo (Preview)
 
-> 📌 Replace with actual demo links once available.
-
 - 🎬 **Video Walkthrough (3+ min required):**  
   [Demo Video Placeholder](#)
 
@@ -27,8 +25,8 @@
 - 📷 **Screenshots:**  
   ![IDE Integration Screenshot](assets/screenshots/ide-plugin.png)  
   ![CLI Tool Report Screenshot](assets/screenshots/cli-report.png)  
-  ![Dashboard Screenshot](<img width="1920" height="1080" alt="Screenshot (18)" src="https://github.com/user-attachments/assets/9e26848b-9970-452b-8782-3c575d38b97e" />
-)  
+  ![Dashboard Screenshot](<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/db744275-3337-4c06-9c3e-00404e929e81" />)
+
 
 ---
 
