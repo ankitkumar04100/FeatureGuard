@@ -3,17 +3,13 @@
   "version": "1.0.0",
   "description": "FeatureGuard: Baseline Web Dev Tool Integration for CLI, IDE, Dashboard, and Backend",
   "main": "cli/index.js",
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "scripts": {
     "start:cli": "node cli/index.js",
     "start:ide": "cd ide-plugin && npm run dev",
     "start:dashboard": "cd dashboard && npm run dev",
     "start:backend": "cd backend && npm run dev",
     "start:all": "concurrently \"npm run start:backend\" \"npm run start:dashboard\"",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "test": "jest"
+    "lint": "npx eslint . --ext .js,.jsx,.ts,.tsx"
   },
   "repository": {
     "type": "git",
@@ -34,8 +30,6 @@
   "devDependencies": {
     "eslint": "^8.53.0",
     "prettier": "^3.0.0",
-    "jest": "^29.6.0",
-    "supertest": "^6.3.3",
     "nodemon": "^3.0.1",
     "@babel/preset-env": "^7.22.20",
     "@babel/preset-react": "^7.22.15",
@@ -45,4 +39,3 @@
     "node": ">=18"
   }
 }
-
