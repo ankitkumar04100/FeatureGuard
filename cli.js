@@ -3,16 +3,16 @@
 const fs = require("fs");
 const path = require("path");
 
-// Minimal demo CLI scan
 const projectPath = process.argv[2] || "./";
-console.log(`\nScanning project: ${projectPath}\n`);
+console.log(`\nFeatureGuard CLI Demo Scan: Scanning folder ${projectPath}\n`);
 
+// Safe file scanner
 function scanFiles(dir) {
-  let files;
+  let files = [];
   try {
     files = fs.readdirSync(dir);
-  } catch (err) {
-    console.error(`Cannot read directory: ${dir}`);
+  } catch {
+    console.warn(`Cannot read directory: ${dir}`);
     return;
   }
 
@@ -21,21 +21,21 @@ function scanFiles(dir) {
     let stat;
     try {
       stat = fs.lstatSync(fullPath);
-    } catch (err) {
-      console.error(`Cannot read file: ${fullPath}`);
+    } catch {
+      console.warn(`Cannot read file: ${fullPath}`);
       return;
     }
 
     if (stat.isDirectory()) {
       scanFiles(fullPath);
     } else if (/\.(js|html|css)$/.test(file)) {
-      console.log(`Checking: ${fullPath}`);
-      // Demo: Replace this with real web-features logic
-      console.log("- Example feature: fetch (99% support)");
+      console.log(`Checked: ${fullPath}`);
+      console.log("- Feature: fetch (99% support)"); // Demo
     }
   });
 }
 
+// Run scan
 scanFiles(projectPath);
 
-console.log("\nFeatureGuard CLI scan complete.");
+console.log("\nFeatureGuard CLI demo scan complete.");
