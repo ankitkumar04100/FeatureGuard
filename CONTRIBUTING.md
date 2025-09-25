@@ -36,7 +36,7 @@ There are many ways you can contribute:
 
 ## 🔑 Code of Conduct
 
-By contributing, you agree to follow our Code of Conduct.
+By contributing, you agree to follow our [Code of Conduct](https://github.com/ankitkumar04100/FeatureGuard/blob/main/CODE_OF_CONDUCT.md).
 Please treat others with respect and professionalism.
 
 ## 🧪 Development Setup
