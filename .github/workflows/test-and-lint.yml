@@ -1,4 +1,4 @@
-name: Test and Lint
+name: FeatureGuard CI
 
 on:
   push:
@@ -26,10 +26,17 @@ jobs:
       run: npm run lint
 
     - name: Run CLI demo scan
-      run: node cli.js ./ # scans current repo for demo
+      run: npm run start:cli
 
     - name: Run Backend sanity check
-      run: node backend.js & sleep 3
+      run: |
+        node backend.js &
+        sleep 3
+        echo "Backend started successfully."
 
     - name: Run Dashboard sanity check
-      run: node dashboard.js & sleep 3
+      run: |
+        node dashboard.js &
+        sleep 3
+        echo "Dashboard started successfully."
+
