@@ -54,13 +54,21 @@ FeatureGuard Report:
 - JS:fetch — 99% support (safe)
 - CI/CD ready → blocks risky features before merging.
 
-### 3. Dashboard & Analytics
-- Built with **React.js + Tailwind CSS**, hosted on **Vercel**.  
-- Visual insights for team-wide adoption.  
+### 3. 📊 Dashboard
+- Visual analytics for projects and teams
+- Feature usage heatmaps, risk scoring, adoption trends
+- Leaderboards & badges for gamification
+- AI assistant panel for contextual suggestions
+-  Visual insights for team-wide adoption.  
 - 📊 Interactive charts:
   - Feature usage heatmaps  
   - Risk scoring visualizations  
-  - Adoption trend tracking  
+  - Adoption trend tracking
+
+### 4. 🤖 AI Assistant
+- Suggests safer feature alternatives
+- Auto-inserts polyfills in code
+- Summarizes browser support & risks in plain language
 
 ---
 
