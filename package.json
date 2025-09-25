@@ -1,19 +1,18 @@
 {
   "name": "featureguard",
   "version": "1.0.0",
-  "description": "FeatureGuard: Baseline Web Dev Tool Integration",
+  "description": "FeatureGuard CLI, Dashboard, Backend Demo",
   "main": "cli.js",
   "scripts": {
-    "start:cli": "node cli.js",
+    "start:cli": "node cli.js ./",
     "start:dashboard": "node dashboard.js",
     "start:backend": "node backend.js",
     "start:all": "concurrently \"node backend.js\" \"node dashboard.js\"",
     "lint": "eslint . --ext .js"
   },
   "dependencies": {
-    "express": "^4.18.2",
-    "web-features": "^1.0.0",
-    "concurrently": "^8.2.0"
+    "concurrently": "^8.2.0",
+    "express": "^4.18.2"
   },
   "devDependencies": {
     "eslint": "^8.53.0"
@@ -22,3 +21,4 @@
     "node": ">=18"
   }
 }
+
