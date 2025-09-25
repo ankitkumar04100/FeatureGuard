@@ -25,7 +25,8 @@
 - 📷 **Screenshots:**  
   ![IDE Integration Screenshot](assets/screenshots/ide-plugin.png)  
   ![CLI Tool Report Screenshot](assets/screenshots/cli-report.png)  
-  ![Dashboard Screenshot](https://1drv.ms/i/c/6a76ef0b95b83422/EUU13XFRWedMjC9JI7AXVkoBuREg42lSTgKKgaum12Bfog?e=skZWdG)
+  ![Dashboard Screenshot](
+<img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/676046db-4c50-4a40-9510-7c31ad054552" />
 
 
 ---
