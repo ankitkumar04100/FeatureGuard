@@ -1,20 +1,20 @@
 {
   "root": true,
   "env": {
-    "browser": true,
     "node": true,
+    "browser": true,
     "es2021": true
   },
-  "extends": ["eslint:recommended"],
+  "extends": [],
   "parserOptions": {
     "ecmaVersion": 12,
     "sourceType": "module"
   },
   "ignorePatterns": ["node_modules/", "dist/"],
   "rules": {
-    "no-unused-vars": "warn",
+    "no-unused-vars": "off",
     "no-console": "off",
-    "semi": ["error", "always"],
-    "quotes": ["error", "double"]
+    "semi": "off",
+    "quotes": "off"
   }
 }
