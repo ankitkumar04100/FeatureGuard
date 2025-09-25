@@ -1,0 +1,17 @@
+{
+  "name": "featureguard-cli",
+  "version": "1.0.0",
+  "description": "FeatureGuard CLI to scan web projects for feature support",
+  "main": "cli.js",
+  "scripts": {
+    "start": "node cli.js ./",
+    "lint": "eslint . --ext .js"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^8.53.0"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
