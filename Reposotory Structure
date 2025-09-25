@@ -1,0 +1,68 @@
+FeatureGuard/
+│
+├── README.md
+├── LICENSE
+├── CONTRIBUTING.md
+├── CODE_OF_CONDUCT.md
+├── SECURITY.md
+├── .gitignore
+├── package.json
+├── package-lock.json
+│
+├── cli/
+│   ├── index.js              # Entry point for CLI tool
+│   ├── scan.js               # Scanning logic
+│   ├── reportGenerator.js    # Generates compatibility reports
+│   └── utils.js              # Helper functions
+│
+├── ide-plugin/
+│   ├── package.json          # VS Code extension manifest
+│   ├── src/
+│   │   ├── extension.ts      # Main extension file
+│   │   ├── linter.ts         # Linting logic
+│   │   └── utils.ts          # Helper functions
+│   └── README.md             # Plugin-specific instructions
+│
+├── dashboard/
+│   ├── package.json
+│   ├── public/
+│   │   └── index.html
+│   ├── src/
+│   │   ├── App.jsx
+│   │   ├── components/
+│   │   │   ├── Dashboard.jsx
+│   │   │   ├── Charts.jsx
+│   │   │   └── FeatureCard.jsx
+│   │   ├── services/
+│   │   │   └── api.js
+│   │   └── utils/
+│   │       └── dataParser.js
+│   └── README.md             # Dashboard-specific instructions
+│
+├── backend/
+│   ├── package.json
+│   ├── server.js             # Express entry point
+│   ├── routes/
+│   │   └── api.js
+│   ├── controllers/
+│   │   └── reportController.js
+│   └── utils/
+│       └── dataNormalizer.js
+│
+├── docs/
+│   ├── architecture.md
+│   ├── user-guide.md
+│   ├── cli-reference.md
+│   └── dashboard-guide.md
+│
+├── assets/
+│   ├── screenshots/
+│   │   ├── ide-plugin.png
+│   │   ├── cli-report.png
+│   │   └── dashboard.png
+│   └── logo.png
+│
+└── tests/
+    ├── cli.test.js
+    ├── plugin.test.js
+    └── dashboard.test.js
