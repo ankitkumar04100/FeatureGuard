@@ -219,7 +219,7 @@ diff
 3. Commit changes → git commit -m "Add feature"
 4. Push → git push origin feature-name
 5. Open a Pull Request
-- Please check our CONTRIBUTING.md for more details.
+- Please check our [CONTRIBUTING.md](https://github.com/ankitkumar04100/FeatureGuard/blob/main/CONTRIBUTING.md) for more details.
 
 ---
 
