@@ -1,0 +1,19 @@
+{
+  "name": "featureguard",
+  "version": "1.0.0",
+  "description": "FeatureGuard: Baseline Web Dev Tool Integration (IDE Plugin, CLI, Dashboard, Backend)",
+  "main": "cli/index.js",
+  "scripts": {
+    "start:cli": "node cli/index.js ./",
+    "start:ide": "code --extensionDevelopmentPath=./ide-plugin",
+    "start:dashboard": "cd dashboard && npm install && npm run dev",
+    "start:backend": "cd backend && npm install && node server.js",
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:dashboard\"",
+    "test": "echo \"No tests yet\" && exit 0"
+  },
+  "author": "Ankit Kumar",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
