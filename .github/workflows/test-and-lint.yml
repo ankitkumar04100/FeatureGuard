@@ -22,11 +22,19 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      - name: Install Dependencies
+      - name: Install Root Dependencies
         run: npm install
+
+      - name: Install Subfolder Dependencies
+        run: |
+          cd cli && npm install
+          cd ../ide-plugin && npm install
+          cd ../dashboard && npm install
+          cd ../backend && npm install
 
       - name: Run Lint
         run: npm run lint
 
       - name: Run Tests
         run: npm test
+
