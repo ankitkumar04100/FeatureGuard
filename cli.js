@@ -4,8 +4,9 @@ const fs = require("fs");
 const path = require("path");
 
 const projectPath = process.argv[2] || "./";
-console.log(`\nFeatureGuard CLI Scan: ${projectPath}\n`);
+console.log(`\nFeatureGuard CLI Demo Scan: Scanning folder ${projectPath}\n`);
 
+// Safe file scanner
 function scanFiles(dir) {
   let files = [];
   try {
@@ -29,10 +30,12 @@ function scanFiles(dir) {
       scanFiles(fullPath);
     } else if (/\.(js|html|css)$/.test(file)) {
       console.log(`Checked: ${fullPath}`);
-      console.log("- Feature: fetch (99% support)"); // Demo placeholder
+      console.log("- Feature: fetch (99% support)"); // Demo
     }
   });
 }
 
+// Run scan
 scanFiles(projectPath);
-console.log("\nFeatureGuard CLI scan complete.");
+
+console.log("\nFeatureGuard CLI demo scan complete.");
