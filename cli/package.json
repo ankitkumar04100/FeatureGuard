@@ -1,15 +1,19 @@
 {
-  "name": "cli",
+  "name": "featureguard-cli",
   "version": "1.0.0",
+  "description": "CLI tool for FeatureGuard: Baseline Web Dev Tool Integration",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "lint": "npx eslint . --ext .js"
+    "lint": "eslint . --ext .js,.jsx"
   },
   "dependencies": {
     "web-features": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^8.53.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
-
