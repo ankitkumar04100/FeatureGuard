@@ -22,7 +22,7 @@
 - 🖥️ **Live App Demo:**  
   [FeatureGuard App](https://feature-guardian-ai.lovable.app)
 
-- 📷 **Screenshots:**  
+## 📷 Screenshots: 
 #### Dashboard 
 <img width="1920" height="1080" alt="Screenshot (13)" src="https://github.com/user-attachments/assets/676046db-4c50-4a40-9510-7c31ad054552" />
 #### Project Dashboard 
