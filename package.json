@@ -1,24 +1,48 @@
 {
-  "name": "featureguard-dashboard",
+  "name": "@ankitkumar04100/featureguard",
   "version": "1.0.0",
+  "description": "FeatureGuard: Baseline Web Dev Tool Integration for CLI, IDE, Dashboard, and Backend",
+  "main": "cli/index.js",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
   "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint . --ext .js,.jsx",
+    "start:cli": "node cli/index.js",
+    "start:ide": "cd ide-plugin && npm run dev",
+    "start:dashboard": "cd dashboard && npm run dev",
+    "start:backend": "cd backend && npm run dev",
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:dashboard\"",
+    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
     "test": "jest"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ankitkumar04100/FeatureGuard.git"
+  },
+  "keywords": ["web", "baseline", "feature", "IDE", "CLI", "dashboard", "tooling"],
+  "author": "Ankit Kumar",
+  "license": "MIT",
   "dependencies": {
+    "express": "^4.18.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "tailwindcss": "^3.3.3",
-    "axios": "^1.5.0"
+    "web-features": "^1.0.0",
+    "axios": "^1.5.0",
+    "concurrently": "^8.2.0"
   },
   "devDependencies": {
     "eslint": "^8.53.0",
+    "prettier": "^3.0.0",
     "jest": "^29.6.0",
+    "supertest": "^6.3.3",
+    "nodemon": "^3.0.1",
     "@babel/preset-env": "^7.22.20",
     "@babel/preset-react": "^7.22.15",
     "vite": "^5.2.0"
+  },
+  "engines": {
+    "node": ">=18"
   }
 }
+
