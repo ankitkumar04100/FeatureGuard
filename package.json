@@ -10,22 +10,13 @@
     "start:backend": "cd backend && npm run dev",
     "start:all": "concurrently \"npm run start:backend\" \"npm run start:dashboard\"",
     "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "format": "prettier --write .",
     "test": "jest"
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/ankitkumar04100/FeatureGuard.git"
   },
-  "keywords": [
-    "web",
-    "baseline",
-    "feature",
-    "IDE",
-    "CLI",
-    "dashboard",
-    "tooling"
-  ],
+  "keywords": ["web", "baseline", "feature", "IDE", "CLI", "dashboard", "tooling"],
   "author": "Ankit Kumar",
   "license": "MIT",
   "dependencies": {
