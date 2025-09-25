@@ -1,0 +1,11 @@
+{
+  "name": "featureguard-ide",
+  "displayName": "FeatureGuard IDE",
+  "description": "VS Code extension for real-time Baseline feature checks",
+  "version": "0.0.1",
+  "engines": { "vscode": "^1.75.0" },
+  "activationEvents": ["onCommand:featureguard.check"],
+  "main": "./src/extension.ts",
+  "contributes": { "commands": [{ "command": "featureguard.check", "title": "FeatureGuard: Check Features" }] },
+  "devDependencies": { "typescript": "^5.0.0", "vscode": "^1.1.50" }
+}
