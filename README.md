@@ -21,8 +21,8 @@
 - 🎬 **Video Walkthrough (3+ min required):**  
   [Demo Video Placeholder](#)
 
-- 🖥️ **Live Dashboard (Vercel/Netlify):**  
-  [Live Demo Placeholder](#)
+- 🖥️ **Live App Demo:**  
+  [FeatureGuard App](https://feature-guardian-ai.lovable.app)
 
 - 📷 **Screenshots:**  
   ![IDE Integration Screenshot](assets/screenshots/ide-plugin.png)  
